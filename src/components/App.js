@@ -3,9 +3,9 @@ import Account from "./Account";
 
 function App() {
   return (
-    <div>
-      <div>
-        <h2>The Royal Bank of Flatiron</h2>
+    <div className="ui raised segment">
+      <div className="ui segment grey inverted">
+        <h2>The Bank of Flatiron</h2>
       </div>
       <Account />
     </div>
