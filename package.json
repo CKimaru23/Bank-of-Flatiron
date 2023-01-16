@@ -37,7 +37,27 @@
     "semantic-ui-react": "^2.1.4"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "jest": "^29.3.1",
     "json-server": "^0.17.1",
     "webpack-cli": "^5.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
