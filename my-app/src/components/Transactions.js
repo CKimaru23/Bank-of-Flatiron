@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Transaction from "./Transaction";
 
 function Transactions({transactions}) {
+
+
   const list = transactions.map((data)=>{
     return <Transaction key={data.id} date={data.date} description={data.description} category={data.category} amount={data.amount} />;
   })
