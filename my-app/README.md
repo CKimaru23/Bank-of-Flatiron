@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+Bank Transactions Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application allows users to view their recent bank transactions, add new transactions, and filter transactions by searching for specific terms.
 
-## Available Scripts
 
-In the project directory, you can run:
+Getting Started
 
-### `npm start`
+Make sure you have Node.js and npm (Node Package Manager) installed on your computer.
+Clone the repository and navigate to the project directory.
+Run npm install to install all necessary dependencies.
+Run npm start to start the development server. The application should automatically open in your browser at http://localhost:8001/.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features
 
-### `npm test`
+View a table of all transactions: The transactions are displayed in a table format, with columns for the transaction date, description, amount, and category.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Add a new transaction: Users can fill out and submit a form to add a new transaction. The new transaction will be added to the table, but is not persisted to the backend.
 
-### `npm run build`
+Filter transactions by description: Users can type into the search bar to filter the transactions displayed in the table. Only transactions with a description matching the search term will be shown.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React
+JavaScript
+CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Note
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The application is not connected to any backend and the transaction data is stored in a mock JSON file, the data is not persistent.
+The filter function is case sensitive.
+The new transaction does not have any validation or error handling.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Future Plans
+Connect the application to a backend for data persistence.
+Add validation and error handling for the new transaction form.
+Add more filter options such as filtering by date or category.
+Add pagination to handle large amount of data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
